@@ -1,0 +1,80 @@
+/* Body */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+}
+
+/* Unordered List */
+ul {
+    list-style-type: square;
+}
+
+/* Ordered List */
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form */
+form {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+}
